@@ -68,7 +68,7 @@ function getS3Data(marker, html) {
           info.files = sortedFiles;
         }
 
-        buildNavigation(info);
+        // buildNavigation(info);
 
         html = typeof html !== 'undefined' ? html + prepareTable(info) :
                                              prepareTable(info);
