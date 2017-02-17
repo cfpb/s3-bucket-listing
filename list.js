@@ -161,7 +161,7 @@ function getInfoFromS3Data(xml) {
     return {
       Key: item.find('Prefix').text(),
         LastModified: '',
-        Size: '0',
+        Size: 'directory',
         Type: 'directory'
     }
     // clang-format on
